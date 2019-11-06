@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="model.js"></script>
+    <script defer src="action.js"></script>
+</head>
+<body>
+
+    <div class="page">
+        <div class="left">
+            <div id="container">
+                <h1 class="todo">To Do</h1>
+                <input type="text" class="todoinput" onkeyup="saveitem(event, this.value)" placeholder="add to list...">
+                <div class="listbox"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
